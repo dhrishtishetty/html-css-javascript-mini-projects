@@ -1,0 +1,193 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: #f5f1eb;
+}
+
+h1 {
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #DCC5B2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+label {
+    color: black;
+    letter-spacing: 1px;
+}
+
+form > input {
+    width: 96%;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.select1 {
+    flex: 1;
+}
+
+.select2 {
+    flex: 1;
+}
+
+#Year, #Course {
+    width: 210px;
+}
+
+form > input, #Year, #Course {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #F0E4D3;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* Table */
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    background-color: #F0E4D3;
+    position: relative;
+    border-radius: 20px;
+    min-height: 598px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 8px;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1500px) {
+    #Year, #Course {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    
+
+    .form {
+        width: 40%;
+    }
+
+    .table {
+        width: 40%;
+    }
+
+    #Year, #Course {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .form {
+        width: 50%;
+    }
+
+    .table {
+        width: 50%;
+        min-height: 625px;
+    }
+
+    #Year, #Course {
+        width: 150px;
+    }
+
+    .select2 {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 350px;
+        padding-bottom: 350px;
+    }
+
+    .form {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .table {
+        width: 80%;
+        margin-left: -20px;
+        overflow-x: scroll;
+    }
+
+    #Year, #Course {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #Year, #Course {
+        width: 135px;
+    }
+}
+
+
+
+

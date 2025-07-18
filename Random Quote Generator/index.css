@@ -1,0 +1,31 @@
+body {
+    background-color: #F5EEDC;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Cabin Sketch", cursive;
+    font-size: 4rem;
+}
+
+button {
+    background-color: #254D70;
+    color: #EFE4D2;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 2rem;
+    margin: 0px;
+    margin-bottom: 40px;
+    color:#954C2E;
+    font-family: "Cabin Sketch", cursive;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
