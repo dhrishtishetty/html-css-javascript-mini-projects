@@ -15,7 +15,7 @@ This repository contains a collection of beginner-friendly and fun mini projects
 | ➕ Increment/Decrement Counter | Basic number counter with + and - buttons. |
 | 💬 Random Quote Generator | Shows a new quote on every button click. |
 | 📺 YouTube Page Clone | Clone of YouTube homepage using pure HTML & CSS. |
-| ✅ To-Do List | Task manager to add and remove daily to-dos. |
+| 🥁 Drum Kit | Interactive drum kit using keyboard events and sound playback. |
 
 ---
 
