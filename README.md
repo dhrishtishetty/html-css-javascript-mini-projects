@@ -15,6 +15,7 @@ These projects helped me practice **DOM manipulation**, **event handling**, and 
 | 🎨 Background Color Changer | Click to randomly change the background color. |
 | ➕ Increment/Decrement Counter | Basic counter with + and - buttons to increase/decrease the value. |
 | 💬 Random Quote Generator | Shows a new inspirational quote on each button click. |
+| ✅ To-Do List | Task manager to add and remove daily to-dos. |
 | 📺 YouTube Page Clone | Clone of YouTube’s homepage using only HTML and CSS. |
 | 🥁 Drum Kit | Interactive drum kit controlled via keyboard events and sound playback. |
 
