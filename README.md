@@ -38,4 +38,3 @@ These projects helped me practice **DOM manipulation**, **event handling**, and 
 ## 📌 Note
 
 This repository will continue to grow as I build more mini projects to strengthen my front-end skills. Stay tuned!
-
