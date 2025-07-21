@@ -1,0 +1,23 @@
+ body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url("images/soundboard.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 100px !important;
+} 
+
+h1 {
+    color: white !important;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

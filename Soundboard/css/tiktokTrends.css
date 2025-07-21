@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url("../images/tiktok_trends.jpg");
+    background-size: cover;
+    background-position: center;
+} 
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.tiktok {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 40px;
+}
+
+.tiktok button {
+    background-color: rgb(238, 41, 219);
+    color: rgb(249, 217, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 1s;
+}
+
+.tiktok button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

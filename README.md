@@ -18,6 +18,7 @@ These projects helped me practice **DOM manipulation**, **event handling**, and 
 | ✅ To-Do List | Task manager to add and remove daily to-dos. |
 | 📺 YouTube Page Clone | Clone of YouTube’s homepage using only HTML and CSS. |
 | 🥁 Drum Kit | Interactive drum kit controlled via keyboard events and sound playback. |
+| 🔊 Soundboard | Dynamic soundboard triggered by user interactions. |
 
 ---
 
